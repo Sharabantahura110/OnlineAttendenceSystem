@@ -1,0 +1,136 @@
+
+
+
+/*login_modal*/
+
+.modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+  .modal-body label{
+    color:black;
+    text-align: left;
+  }
+
+  
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+
+/*record menu */
+
+.menu ul {
+  list-style:none;
+  margin:0; 
+}
+.logo-menu{background-color: brown;}
+.menu>ul>li {
+  float:left;
+  position:relative;
+  margin-right:2px; 
+}
+
+.menu ul li a {
+color: #ecf0f1;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 7px 18px;
+    display: block;
+    border-radius: 5px;
+  
+  
+}
+.menu ul li a .drop {padding-left: 20px;}
+/* .menu>ul>li>a { */
+  /* border:1px solid transparent; */
+  /* border-radius:5px; */
+/* } */
+
+.menu ul li:hover a {
+  background:#111111;
+}
+.menu ul li ul li:hover a{
+  background:#3498db;
+}
+
+.menu ul:after {
+  content:'';
+  clear:both;
+  display:block;
+}
+
+.menu ul ul{
+  padding-left:0;
+  position:absolute;
+  top:100%;
+  left:0;
+  min-width:220px;
+  display:none;
+  z-index:9999;
+    
+}
+.menu ul .current a {
+  background:#111111;
+}
+
+.menu ul ul li:hover a {
+  background:#0064A0;;
+  
+}
+.menu ul li:hover>ul {
+  display:block;
+}
+
+
+.header-area .logo-area h1 {
+  
+  /* font-family: 'Monoton', cursive; */
+  color:white;
+  font-size:36px;
+  line-height:0.1;
+  
+}
+.header-area .logo-area p {
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  font-size:12px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.header-area .logo-area a{
+  text-decoration:none;
+}
+.header-area .logo-area h1:hover {
+  cursor:pointer;
+  color:#1abc9c;
+}
+
+
+.search {
+  padding-top:20px;
+}
+.menu {
+  padding-top:20px;
+}
+
+
+.menu ul ul li {
+  position: relative;
+}
+.menu ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+.menu ul ul ul li:hover a {
+  background: #34495E;
+}

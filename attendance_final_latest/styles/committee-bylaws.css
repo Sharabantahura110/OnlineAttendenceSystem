@@ -1,0 +1,383 @@
+body{
+  background-color:#D8D8D8;
+
+}
+
+
+
+/*navbar styling*/
+
+.navbar-default{
+  background-color:#F4511E;
+  border-color:rgba(34,34,34,.05);
+  -webkit-transition:all .35s;
+  -moz-transition:all .35s;
+  transition:all .35s;
+  
+}
+ .navbar-default .navbar-header .navbar-brand{color:#000;}
+ .btn,.navbar-default .nav>li>a{
+  font-family:Lato,Helvetica,Arial,sans-serif;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+ .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#fcbd20;}
+ .navbar-default .navbar-header .navbar-toggle{
+  font-size:12px;
+  color:#222;
+  padding:8px 10px;}
+ .navbar-default .nav>li>a{font-size:11.5px;}
+ .navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:#222;}
+ .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:#fdcc52;}
+ .navbar-default .nav>li.active>a,.navbar-default .nav>li.active>a:focus{
+  color:#fdcc52!important;
+  background-color:#fff;}
+ .navbar-default .nav>li.active>a:focus:hover,.navbar-default .nav>li.active>a:hover{background-color:transparent;}
+
+.dropdown-menu li a:hover {
+      background-color: #fec503 !important;
+  }
+
+	span{
+  color:#fff !important;
+}
+	span:hover{
+  color:#fcbd20 !important;
+}
+
+
+
+
+/*navbar styling end*/
+
+
+
+/*login_modal*/
+
+.modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+  .modal-body label{
+    color:black;
+    text-align: left;
+  }
+
+  
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+
+
+/*login_modal*/
+
+
+
+
+/*Committee page style */
+
+span{
+  color:#f4511e;
+}
+
+.member_info_box {
+    border-radius: 4px;
+    border: 1px solid #D8D8D8;
+    padding: 3%;
+    background-color: #F2F2F2;
+    margin-top: 10%;
+    margin-bottom: 5px;
+}
+.content_img{
+  padding-left: 10%;
+}
+
+
+.content_img img {
+  height: 150px;
+  width:150px;
+  border-radius:100px; 
+  margin-top: 18px;
+  margin-left:5%;
+  
+  
+}
+
+
+
+h2 {
+    font-family: "Muli";
+    margin-top: 8%;
+    text-align: center;
+    color: #000;
+    padding: 1%;
+    margin-left: -42px;
+    font-weight: bold;
+}
+
+.edit_member_designation {
+    color: #000;
+	margin-left: 51px;
+}
+
+
+
+.profile-list{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top:20px;
+  padding-bottom:20px;
+  list-style: none;
+}
+
+
+.profile-list .title {
+    display: block;
+    width: 200px;
+    float: left;
+    color: #222;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase; 
+    padding:5px;
+    margin-left: -5%;
+    margin-right: -5%;
+
+  }
+
+.profile-list .cont {
+    display: block;
+   margin-left:%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: grey; 
+   font-family: "Montserrat";
+  }
+
+.social_box{
+  padding-top:5%;
+}
+
+.social_id{
+ margin-left:11%;
+ margin-top: 5%;
+}
+
+.committee-social-buttons ul{
+  margin-bottom:0;
+  
+}
+.committee-social-buttons li a{
+  
+  display:block;
+  background-color:grey;
+  height:40px;
+  width:40px;
+  border-radius:100%;
+  font-size:20px;
+  line-height:40px;
+  color:#fff;
+  outline:0;
+  padding-left:10px;
+  margin:5%;
+  
+  }
+  .committee-social-buttons li a:active,ul.committee-social-buttons li a:focus,ul.committee-social-buttons li a:hover{
+    background-color: #fff;
+    color:#222;
+    }
+    .btn.active,.btn:active,.btn:active:focus,.btn:focus{
+      outline:0;
+    }
+
+
+@media only screen and (max-width: 800px) {
+
+.committee{
+  margin-top: 8%;
+}
+
+.content_img{
+  padding-left: 19%;
+}
+
+
+}
+
+
+/*Committee page style */
+
+
+
+
+/*Bylaws page style */
+
+
+.bylaw{
+margin-top:2%;
+
+}
+.bylaw-content{
+  
+  padding-left:2%;
+}
+
+.bylaw-info{
+  margin-top: 25%;
+  border-right:1px solid grey;
+  margin-right:-5%;
+
+}
+
+.bylaw-info a{
+     color:  #e09f72;
+     padding-right:2%;
+     
+
+}
+
+.bylaw-info a:hover{
+  text-decoration: none;
+  color: #e36e1d;
+}
+
+
+h5{
+  font-size: 17px;
+  font-family: "Lato";
+  font-weight: 700;
+  padding-bottom: 5%;
+  color:#ee721c;
+}
+
+h6{
+
+  font-size: 20px;
+  font-family: "kaushan script";
+  padding-bottom: 1%;
+  margin-top: -2%;
+
+}
+
+.bylaw section{
+  margin-bottom: 5%;
+}
+
+
+/*Bylaws page style */
+
+
+
+
+/*upper_footer start*/
+
+
+p{
+  font-size:15;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color:grey;
+  text-align: justify;
+}
+
+
+.bg-primary {
+  background: #fdcc52;
+  text-align:center;
+  padding-top:8%;
+  padding-bottom:8%;
+  margin-top:5%;
+  
+
+}
+
+.fa-heart{
+  color:red;
+}
+
+.social-buttons ul{
+  margin-bottom:0;
+
+
+}
+.social-buttons li a{
+  
+  display:block;
+  background-color:#222222;
+  height:40px;
+  width:40px;
+  border-radius:12%;
+  font-size:20px;
+  line-height:40px;
+  color:#fed136;
+  outline:0;
+  padding-left:3px;
+  margin:5%;
+  
+  }
+  .social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{
+    background-color:#fff;
+    color:#222;
+    }
+    .btn.active,.btn:active,.btn:active:focus,.btn:focus{
+      outline:0;
+    }
+
+
+
+
+.newsletter input{
+  padding:1.4%;
+  background-color:transparent;
+  border:1px solid grey;
+  margin-right:-4px;
+  margin-top:1.2px;
+}
+
+
+
+/*upper_footer end*/
+
+
+
+
+/*lower_footer start*/
+
+footer {
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+}
+footer ul {
+  margin-bottom: 0;
+}
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
+}
+
+
+/*lower_footer end*/
+

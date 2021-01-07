@@ -1,0 +1,59 @@
+
+
+/*    body section   */
+
+.action_para {
+    
+    color: #000;
+}
+
+.action_para:hover{
+	color:#f4511E;
+}
+
+.my_view{
+	float: left;
+	width: 60px;
+	background: #ddd;
+	height: 25px;
+	border-radius:5px;
+	margin:5px;
+	text-align: center;
+}
+
+.my_edit{
+	float: left;
+	width: 60px;
+	background: #ddd;
+	height: 25px;
+	border-radius:5px;
+	margin:5px;
+	text-align: center;
+}
+
+.my_delete{
+	float: left;
+	width: 60px;
+	background: #ddd;
+	height: 25px;
+	border-radius:5px;
+	text-align: center;
+	margin:5px;
+}
+
+a {
+    color: #000;
+}
+/*
+header section
+h2{
+	
+	text-align:center;
+	font-weight:bold;
+	color:#021315;
+}*/
+
+
+.edit_submit{
+	padding-bottom: 100px;
+}

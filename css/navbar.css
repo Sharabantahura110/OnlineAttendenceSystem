@@ -1,0 +1,153 @@
+.navbar-default{
+  background-color:#337ab7;
+  border-color:rgba(34,34,34,.05);
+  -webkit-transition:all .35s;
+  -moz-transition:all .35s;
+  transition:all .35s;
+  
+}
+ .navbar-default .navbar-header .navbar-brand{color:wheat;}
+ .btn,.navbar-default .nav>li>a{
+  font-family:Lato,Helvetica,Arial,sans-serif;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+ .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#fcbd20;}
+ .navbar-default .navbar-header .navbar-toggle{
+  font-size:12px;
+  color:white;
+  padding:8px 10px;}
+ .navbar-default .nav>li>a{font-size:11.5px;}
+ .navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:wheat;}
+ .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:#fdcc52;}
+ .navbar-default .nav>li.active>a,.navbar-default .nav>li.active>a:focus{
+  color:#fdcc52!important;
+  background-color:#fff;}
+ .navbar-default .nav>li.active>a:focus:hover,.navbar-default .nav>li.active>a:hover{background-color:transparent;}
+
+.dropdown-menu li a:hover {
+      background-color: #fec503 !important;
+  }
+
+	span{
+  color:#fff ;
+}
+	span:hover{
+  color:#fcbd20 ;
+}
+
+
+
+
+/*navbar styling end*/
+
+
+
+.menu ul {
+  list-style:none;
+  margin:0; 
+}
+.logo-menu{background-color: brown;}
+.menu>ul>li {
+  float:left;
+  position:relative;
+  margin-right:2px; 
+}
+
+.menu ul li a {
+color: #ecf0f1;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 7px 18px;
+    display: block;
+    border-radius: 5px;
+  
+  
+}
+.menu ul li a .drop {padding-left: 20px;}
+/* .menu>ul>li>a { */
+  /* border:1px solid transparent; */
+  /* border-radius:5px; */
+/* } */
+
+.menu ul li:hover a {
+  background:#111111;
+}
+.menu ul li ul li:hover a{
+  background:#3498db;
+}
+
+.menu ul:after {
+  content:'';
+  clear:both;
+  display:block;
+}
+
+.menu ul ul{
+  padding-left:0;
+  position:absolute;
+  top:100%;
+  left:0;
+  min-width:220px;
+  display:none;
+  z-index:9999;
+    
+}
+.menu ul .current a {
+  background:#111111;
+}
+
+.menu ul ul li:hover a {
+  background:#0064A0;;
+  
+}
+.menu ul li:hover>ul {
+  display:block;
+}
+
+
+.header-area .logo-area h1 {
+  
+  /* font-family: 'Monoton', cursive; */
+  color:white;
+  font-size:36px;
+  line-height:0.1;
+  
+}
+.header-area .logo-area p {
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  font-size:12px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.header-area .logo-area a{
+  text-decoration:none;
+}
+.header-area .logo-area h1:hover {
+  cursor:pointer;
+  color:#1abc9c;
+}
+
+
+.search {
+  padding-top:20px;
+}
+.menu {
+  padding-top:20px;
+}
+
+
+.menu ul ul li {
+  position: relative;
+}
+.menu ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+.menu ul ul ul li:hover a {
+  background: #34495E;
+}
+
